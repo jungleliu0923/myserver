@@ -18,21 +18,22 @@
 
 
 /* 服务器设置为非阻塞 */
-void setnonblocking(int sock)
+int setnonblocking(int sock)
 {
     int opts;
     opts = fcntl(sock, F_GETFL);
     if (opts < 0)
     {
-        perror("fcntl(sock,GETFL)");
-        exit(1);
+        MY_LOG_WARNNING("fcntl(sock,GETFL)");
+        return -1;
     }
     opts = opts | O_NONBLOCK;
     if (fcntl(sock, F_SETFL, opts) < 0)
     {
-        perror("fcntl(sock,SETFL,opts)");
-        exit(1);
+        MY_LOG_WARNNING("fcntl(sock,SETFL,opts)");
+        return -1;
     }
+    return 0;
 }
 
 /* 初始化配置文件*/
@@ -117,7 +118,11 @@ my_server_t* my_server_init_data(my_server_conf_t* server_conf)
     }
     
     //把socket设置为非阻塞方式
-    setnonblocking(server->server_fd);
+    if ( -1 == setnonblocking(server->server_fd))
+    {
+        free(server);
+        return NULL;
+    }
     //设置SO_REUSEADDR选项(服务器快速重起)
     unsigned int optval = 1;
     setsockopt(server->server_fd, SOL_SOCKET, SO_REUSEADDR, &optval, 4);
@@ -264,7 +269,10 @@ void* epoll_main(void *args)
                     MY_LOG_FATAL("accept fd[%d] fail", server->server_fd);
                     return NULL;
                 }
-                setnonblocking(connfd);
+                if ( -1 == setnonblocking(connfd) )
+                {
+                    continue;
+                }
                 //设置用于读操作的文件描述符
                 ev.data.fd = connfd;
                 //设置用于注测的读操作事件
