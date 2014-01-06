@@ -31,9 +31,6 @@
 #include "myconf.h"
 #include "myserver_define.h"
 
-#include <iostream>
-using namespace std;
-
 //线程池任务队列结构体
 typedef struct _task_t
 {
@@ -45,52 +42,66 @@ typedef struct _task_t
 //用于读写两个的两个方面传递参数
 typedef struct _user_thread_data_t
 {
-    int fd;
-    uint32 read_size;
-    char* read_data;
-    uint32 write_size;
-    char* write_data;
-    char reqip[MAX_FILE_NAME_LEN]; //连接的ip
+    int fd;                         //传递的socket fd
+    uint32 read_size;               //读的大小
+    char* read_data;                //读的数据
+    uint32 write_size;              //写的大小
+    char* write_data;               //写的数据
+    char reqip[MAX_FILE_NAME_LEN];  //连接的ip
 }user_thread_data_t;
 
+//服务器配置
 typedef struct _my_server_conf_t
 {
-    uint32 cut_off_len;
-    uint32 server_port;
-    uint32 listen_back;
-    uint32 pool_size;
-    uint32 thread_num;
-    int timeout;
-    uint32 read_size;
-    uint32 write_size;
-    char server_name[MAX_FILE_NAME_LEN];
+    uint32 cut_off_len;             //截断
+    uint32 server_port;             //服务器端口
+    uint32 listen_back;             //服务器监听
+    uint32 pool_size;               //线程池大小
+    uint32 thread_num;              //线程数目
+    int timeout;                    //等待超时
+    uint32 read_size;               //socket读大小
+    uint32 write_size;              //socket写大小
+    char server_name[MAX_FILE_NAME_LEN]; //服务器名字    
 } my_server_conf_t;
 
-
+//服务器数据
 typedef struct _my_server_t
 {
-    task_t* readhead;
-    task_t* readtail;
-    pthread_t tmain;
-    pthread_t* threads;
-    pthread_mutex_t mutex_ready;
-    pthread_cond_t cond_ready;
-    struct epoll_event* events;
-    int epfd;
-    int server_fd;
-    bool is_run;
-    my_server_conf_t* server_conf;
+    task_t* readhead;               //线程头
+    task_t* readtail;               //线程尾
+    pthread_t tmain;                //线程生产线程
+    pthread_t* threads;             //线程池
+    pthread_mutex_t mutex_ready;    //线程互斥锁
+    pthread_cond_t cond_ready;      //线程触发锁
+    struct epoll_event* events;     //监听epool_events
+    int epfd;                       //监听epfd
+    int server_fd;                  //服务器监听socket
+    bool is_run;                    //服务器是否运行
+    my_server_conf_t* server_conf;  //服务器配置
 } my_server_t;
 
+/* 服务器配置初始化 */
 my_server_conf_t* my_server_init_conf(const char* conf_path, const char* conf_file, const char* server_name);
+
+/* 服务器线程数据初始化 */
 my_server_t* my_server_init_data(my_server_conf_t* server_conf);
+
+/* 创建一个服务器*/
 my_server_t* my_server_create(const char* conf_path, const char* conf_file, const char* server_name);
+
+/* 运行一个服务器*/
 int my_server_run(my_server_t* server);
+
+/* 关闭一个服务器*/
 int my_server_close(my_server_t* server);
-int my_server_hold(my_server_t* server);
-int my_server_resume(my_server_t* server);
+
+/* 生产者线程 */
 void* epoll_main(void *args);
+
+/* 消费者处理线程 */
 void* epool_handle(void *args);
+
+/* 服务器设置为非阻塞 */
 void setnonblocking(int sock);
 
 #endif  //__MYSERVER_H_

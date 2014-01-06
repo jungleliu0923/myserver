@@ -17,6 +17,7 @@
 #include "myserver.h"
 
 
+/* 服务器设置为非阻塞 */
 void setnonblocking(int sock)
 {
     int opts;
@@ -33,8 +34,6 @@ void setnonblocking(int sock)
         exit(1);
     }
 }
-
-
 
 /* 初始化配置文件*/
 my_server_conf_t* my_server_init_conf(const char* conf_path, const char* conf_file, const char* server_name)
@@ -87,6 +86,8 @@ my_server_conf_t* my_server_init_conf(const char* conf_path, const char* conf_fi
     return server_conf;
 }
 
+
+/* 服务器线程数据初始化 */
 my_server_t* my_server_init_data(my_server_conf_t* server_conf)
 {
     if( NULL == server_conf)
@@ -153,6 +154,7 @@ my_server_t* my_server_init_data(my_server_conf_t* server_conf)
     return server;
 }
 
+/* 创建一个服务器*/
 my_server_t* my_server_create(const char* conf_path, const char* conf_file, const char* server_name)
 {
     my_log_set_mod(server_name);
@@ -167,6 +169,7 @@ my_server_t* my_server_create(const char* conf_path, const char* conf_file, cons
     return server;
 }
 
+/* 运行一个服务器*/
 int my_server_run(my_server_t* server)
 {
     server->is_run = true;
@@ -181,6 +184,7 @@ int my_server_run(my_server_t* server)
     return 0;
 }
 
+/* 关闭一个服务器*/
 int my_server_close(my_server_t* server)
 {
     server->is_run = false;
@@ -221,6 +225,7 @@ int my_server_close(my_server_t* server)
     return 0;
 }
 
+/* 生产者线程 */
 void* epoll_main(void *args)
 {
     my_server_t* server = (my_server_t*) args;
@@ -349,6 +354,7 @@ void* epoll_main(void *args)
     pthread_exit(0);
 }
 
+/* 消费者处理线程 */
 void* epool_handle(void *args)
 {
     my_server_t* server = (my_server_t*) args;
