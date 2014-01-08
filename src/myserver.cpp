@@ -15,10 +15,17 @@
  **/
 
 #include "myserver.h"
+static pthread_key_t g_server_key;
+static pthread_once_t  g_server_once=PTHREAD_ONCE_INIT;
+
+static void gen_server_key()
+{
+    pthread_key_create(&g_server_key, NULL);
+}
 
 
 /* 服务器设置为非阻塞 */
-int setnonblocking(int sock)
+int set_nonblocking(int sock)
 {
     int opts;
     opts = fcntl(sock, F_GETFL);
@@ -118,7 +125,7 @@ my_server_t* my_server_init_data(my_server_conf_t* server_conf)
     }
     
     //把socket设置为非阻塞方式
-    if ( -1 == setnonblocking(server->server_fd))
+    if ( -1 == set_nonblocking(server->server_fd))
     {
         free(server);
         return NULL;
@@ -269,7 +276,7 @@ void* epoll_main(void *args)
                     MY_LOG_FATAL("accept fd[%d] fail", server->server_fd);
                     return NULL;
                 }
-                if ( -1 == setnonblocking(connfd) )
+                if ( -1 == set_nonblocking(connfd) )
                 {
                     continue;
                 }
@@ -365,6 +372,8 @@ void* epoll_main(void *args)
 /* 消费者处理线程 */
 void* epool_handle(void *args)
 {
+    //线程数据初始化
+    pthread_once(&g_server_once, gen_server_key);
     my_server_t* server = (my_server_t*) args;
     struct epoll_event ev;
     int fd = -1;
@@ -402,7 +411,8 @@ void* epool_handle(void *args)
         free(tmp);
         tmp = NULL;
         pthread_mutex_unlock(&server->mutex_ready);
-        data->read_data = (char*) malloc(server->server_conf->read_size);
+        data->read_data = malloc(server->server_conf->read_size);
+        memset(data->read_data, 0, server->server_conf->read_size);
         data->fd = fd;
         data->read_size = read(fd, data->read_data, server->server_conf->read_size);
         if ((int)data->read_size < 0)
@@ -459,11 +469,12 @@ void* epool_handle(void *args)
         }
         else
         {
-            data->read_data[data->read_size] = '\0';
-            MY_LOG_TRACE("read data is %s", data->read_data);
-            data->write_data = (char*) malloc(server->server_conf->write_size);
-            data->write_size = server->server_conf->write_size;
-            strncpy(data->write_data, "here write somethine", server->server_conf->write_size);
+            MY_LOG_TRACE("read data is %s",(char*)data->read_data);
+            data->write_data = malloc(server->server_conf->write_size);
+            memset(data->write_data, 0,  server->server_conf->write_size);
+            data->write_size = strlen("here write somethine") + 1;
+            pthread_setspecific(g_server_key, (void*)data);
+            memcpy(data->write_data, "here write somethine", server->server_conf->write_size);
             //设置需要传递出去的数据
             ev.data.ptr = data;
             //设置用于注测的写操作事件
@@ -473,6 +484,47 @@ void* epool_handle(void *args)
         }
     }
     pthread_exit(0);
+}
+
+
+uint32 my_server_get_read_size()
+{
+    void * ptr = pthread_getspecific(g_server_key);
+    return ( (user_thread_data_t*)ptr) ->read_size;
+}
+
+uint32 my_sever_get_write_size()
+{
+    void * ptr = pthread_getspecific(g_server_key);
+    return ((user_thread_data_t*)ptr)->write_size;
+}
+
+void* my_server_get_read_buf()
+{
+    void * ptr = pthread_getspecific(g_server_key);
+    return ((user_thread_data_t*)ptr)->read_data;
+}
+
+void* my_sevver_get_write_buf()
+{
+    void * ptr = pthread_getspecific(g_server_key);
+    return ((user_thread_data_t*)ptr)->write_data;
+}
+
+
+int my_sever_set_write_size(uint32 write_size)
+{
+    void * ptr = pthread_getspecific(g_server_key);
+    if( NULL == ptr)
+    {
+        return -1;
+    }
+    else
+    {
+        user_thread_data_t* user_t_data = (user_thread_data_t*)ptr;
+        user_t_data->write_size = write_size;
+    }
+    return 0;
 }
 
 

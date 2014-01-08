@@ -31,6 +31,9 @@
 #include "myconf.h"
 #include "myserver_define.h"
 
+//回调函数
+typedef int (* callback_proc)();
+
 //线程池任务队列结构体
 typedef struct _task_t
 {
@@ -44,9 +47,9 @@ typedef struct _user_thread_data_t
 {
     int fd;                         //传递的socket fd
     uint32 read_size;               //读的大小
-    char* read_data;                //读的数据
+    void* read_data;                //读的数据
     uint32 write_size;              //写的大小
-    char* write_data;               //写的数据
+    void* write_data;               //写的数据
     char reqip[MAX_FILE_NAME_LEN];  //连接的ip
 }user_thread_data_t;
 
@@ -102,7 +105,7 @@ void* epoll_main(void *args);
 void* epool_handle(void *args);
 
 /* 服务器设置为非阻塞 */
-void setnonblocking(int sock);
+int set_nonblocking(int sock);
 
 #endif  //__MYSERVER_H_
 

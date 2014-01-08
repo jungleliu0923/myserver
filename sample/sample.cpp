@@ -16,6 +16,8 @@
 
 #include "myserver.h"
 #include <unistd.h>
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -27,7 +29,7 @@ int main()
         return -1;
     }
     my_server_run(server);
-    sleep(1);
+    sleep(10);
     my_server_close(server);
     return 0;
 }
