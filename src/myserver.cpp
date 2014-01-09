@@ -503,32 +503,36 @@ void* epool_handle(void *args)
     pthread_exit(0);
 }
 
-
+/* 获得线程读大小 */
 uint32 my_server_get_read_size()
 {
     void * ptr = pthread_getspecific(g_server_key);
     return ( (user_thread_data_t*)ptr) ->read_size;
 }
 
+/* 获得线程最大写大小*/
 uint32 my_server_get_write_size()
 {
     void * ptr = pthread_getspecific(g_server_key);
-    return ((user_thread_data_t*)ptr)->write_size;
+    //因为需要加一层壳，所以只返回实际值的0.8
+    return ((user_thread_data_t*)ptr)->write_sizei * 4 / 5;
 }
 
+/* 获得线程读数据 */
 void* my_server_get_read_buf()
 {
     void * ptr = pthread_getspecific(g_server_key);
     return ((user_thread_data_t*)ptr)->read_data;
 }
 
+/* 获得线程写数据 */
 void* my_server_get_write_buf()
 {
     void * ptr = pthread_getspecific(g_server_key);
     return ((user_thread_data_t*)ptr)->write_data;
 }
 
-
+/* 设置线程实际返回写数据大小 */
 int my_server_set_write_size(uint32 write_size)
 {
     void * ptr = pthread_getspecific(g_server_key);
@@ -544,6 +548,7 @@ int my_server_set_write_size(uint32 write_size)
     return 0;
 }
 
+/* 设置线程回调函数 */
 int my_server_set_callback(my_server_t* server, callback_proc call_func)
 {
     if(NULL == server)
@@ -554,6 +559,7 @@ int my_server_set_callback(my_server_t* server, callback_proc call_func)
     return 0;
 }
 
+/* 线程处理回调 */
 void my_server_process_writeback(user_thread_data_t* data, int user_app_ret, int max_write_size)
 {
     rapidjson::Document document;
@@ -566,7 +572,6 @@ void my_server_process_writeback(user_thread_data_t* data, int user_app_ret, int
     document.Accept(writer);
     const char *jsonString = strbuf.GetString();
     data->write_size = strlen(jsonString);
-
 
     if( data->write_size > max_write_size )
     {

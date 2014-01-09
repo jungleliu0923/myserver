@@ -99,6 +99,28 @@ int my_server_run(my_server_t* server);
 /* 关闭一个服务器*/
 int my_server_close(my_server_t* server);
 
+/* 设置线程回调函数 */
+int my_server_set_callback(my_server_t* server, callback_proc call_func);
+
+/* 获得线程读大小 */
+uint32 my_server_get_read_size();
+
+/* 获得线程读数据 */
+void* my_server_get_read_buf();
+
+/* 获得线程最大写大小*/
+uint32 my_server_get_write_size();
+/* 获得线程最大写数据 */
+void* my_server_get_write_buf();
+
+/* 设置线程实际返回写数据大小 */
+int my_server_set_write_size(uint32 write_size);
+
+/**************************以下函数无需关注 *************************/
+
+/* 线程处理回调 */
+void my_server_process_writeback(user_thread_data_t* data, int user_app_ret, int max_write_size);
+
 /* 生产者线程 */
 void* epoll_main(void *args);
 
@@ -108,15 +130,6 @@ void* epool_handle(void *args);
 /* 服务器设置为非阻塞 */
 int set_nonblocking(int sock);
 
-int my_server_set_callback(my_server_t* server, callback_proc call_func);
-
-uint32 my_server_get_read_size();
-void* my_server_get_read_buf();
-
-uint32 my_server_get_write_size();
-void* my_server_get_write_buf();
-int my_server_set_write_size(uint32 write_size);
-void my_server_process_writeback(user_thread_data_t* data, int user_app_ret, int max_write_size);
 
 #endif  //__MYSERVER_H_
 
