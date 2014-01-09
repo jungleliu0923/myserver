@@ -19,6 +19,24 @@
 #include <iostream>
 using namespace std;
 
+
+int my_callback()
+{
+    uint32 read_size = my_server_get_read_size();
+    //cout << "read_size is " << read_size << endl;
+
+    char* read_data = (char*)my_server_get_read_buf();
+    //cout << "read buf is " << read_data << endl;
+   
+    char* write_data = (char*)my_server_get_write_buf();
+    uint32 write_size = my_server_get_write_size();
+
+    write_size = snprintf(write_data, write_size, "input is [%s], return succ", read_data);
+    my_server_set_write_size(write_size);
+
+    return 0;
+}
+
 int main()
 {
     my_log_init("./log", "sample.log", "sample.log.wf", 16);
@@ -28,25 +46,12 @@ int main()
         cout << "create sever fail\n";
         return -1;
     }
+    my_server_set_callback(server, my_callback);
     my_server_run(server);
     sleep(10);
     my_server_close(server);
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

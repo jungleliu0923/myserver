@@ -15,6 +15,10 @@
  **/
 
 #include "myserver.h"
+#include "rapidjson/document.h"
+#include "rapidjson/writer.h"
+#include "rapidjson/stringbuffer.h"
+
 static pthread_key_t g_server_key;
 static pthread_once_t  g_server_once=PTHREAD_ONCE_INIT;
 
@@ -413,6 +417,8 @@ void* epool_handle(void *args)
         pthread_mutex_unlock(&server->mutex_ready);
         data->read_data = malloc(server->server_conf->read_size);
         memset(data->read_data, 0, server->server_conf->read_size);
+        pthread_setspecific(g_server_key, (void*)data);
+        
         data->fd = fd;
         data->read_size = read(fd, data->read_data, server->server_conf->read_size);
         if ((int)data->read_size < 0)
@@ -469,12 +475,23 @@ void* epool_handle(void *args)
         }
         else
         {
-            MY_LOG_TRACE("read data is %s",(char*)data->read_data);
+
             data->write_data = malloc(server->server_conf->write_size);
-            memset(data->write_data, 0,  server->server_conf->write_size);
-            data->write_size = strlen("here write somethine") + 1;
-            pthread_setspecific(g_server_key, (void*)data);
-            memcpy(data->write_data, "here write somethine", server->server_conf->write_size);
+            data->write_size = server->server_conf->write_size;
+            memset(data->write_data, 0,  data->write_size);
+
+            int ret = 0;
+            if( server->user_callback == NULL)
+            {
+                MY_LOG_WARNNING("user call back is null");
+            }
+            else 
+            {
+                ret = server->user_callback();
+            } 
+
+            my_server_process_writeback(data, ret, server->server_conf->write_size );
+            
             //设置需要传递出去的数据
             ev.data.ptr = data;
             //设置用于注测的写操作事件
@@ -493,7 +510,7 @@ uint32 my_server_get_read_size()
     return ( (user_thread_data_t*)ptr) ->read_size;
 }
 
-uint32 my_sever_get_write_size()
+uint32 my_server_get_write_size()
 {
     void * ptr = pthread_getspecific(g_server_key);
     return ((user_thread_data_t*)ptr)->write_size;
@@ -505,14 +522,14 @@ void* my_server_get_read_buf()
     return ((user_thread_data_t*)ptr)->read_data;
 }
 
-void* my_sevver_get_write_buf()
+void* my_server_get_write_buf()
 {
     void * ptr = pthread_getspecific(g_server_key);
     return ((user_thread_data_t*)ptr)->write_data;
 }
 
 
-int my_sever_set_write_size(uint32 write_size)
+int my_server_set_write_size(uint32 write_size)
 {
     void * ptr = pthread_getspecific(g_server_key);
     if( NULL == ptr)
@@ -525,6 +542,52 @@ int my_sever_set_write_size(uint32 write_size)
         user_t_data->write_size = write_size;
     }
     return 0;
+}
+
+int my_server_set_callback(my_server_t* server, callback_proc call_func)
+{
+    if(NULL == server)
+    {
+        return -1;
+    }
+    server->user_callback = call_func;
+    return 0;
+}
+
+void my_server_process_writeback(user_thread_data_t* data, int user_app_ret, int max_write_size)
+{
+    rapidjson::Document document;
+    document.SetObject();
+    rapidjson::Document::AllocatorType& allocator = document.GetAllocator();
+    document.AddMember(WRITE_ERRNO, user_app_ret , allocator);
+    document.AddMember(WRITE_DATA, (char*)data->write_data , allocator);
+    rapidjson::StringBuffer strbuf;
+    rapidjson::Writer<rapidjson::StringBuffer> writer(strbuf);
+    document.Accept(writer);
+    const char *jsonString = strbuf.GetString();
+    data->write_size = strlen(jsonString);
+
+
+    if( data->write_size > max_write_size )
+    {
+        MY_LOG_FATAL("server_conf write size[%u] less than exact size[%u]", data->write_size, max_write_size );
+        rapidjson::Document document_error;
+        document_error.SetObject();
+        rapidjson::Document::AllocatorType& allocator_error = document_error.GetAllocator();
+        document_error.AddMember(WRITE_ERRNO, SERVER_WRITE_SIZE_TOO_LARGE , allocator_error);
+        document_error.AddMember(WRITE_DATA, (char*)"server_write_size too small" , allocator_error);
+        rapidjson::StringBuffer strbuf_error;
+        rapidjson::Writer<rapidjson::StringBuffer> writer_error(strbuf_error);
+        document_error.Accept(writer_error);
+        const char* jsonString_error = strbuf_error.GetString();
+        memcpy(data->write_data, jsonString_error, strlen(jsonString_error) );
+        data->write_size = strlen(jsonString_error);
+    }
+    else
+    {
+        memcpy(data->write_data, jsonString, strlen(jsonString) );
+        data->write_size = strlen(jsonString);
+    }
 }
 
 

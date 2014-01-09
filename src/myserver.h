@@ -81,6 +81,7 @@ typedef struct _my_server_t
     int server_fd;                  //服务器监听socket
     bool is_run;                    //服务器是否运行
     my_server_conf_t* server_conf;  //服务器配置
+    callback_proc user_callback;    //用户自定义回调
 } my_server_t;
 
 /* 服务器配置初始化 */
@@ -106,6 +107,16 @@ void* epool_handle(void *args);
 
 /* 服务器设置为非阻塞 */
 int set_nonblocking(int sock);
+
+int my_server_set_callback(my_server_t* server, callback_proc call_func);
+
+uint32 my_server_get_read_size();
+void* my_server_get_read_buf();
+
+uint32 my_server_get_write_size();
+void* my_server_get_write_buf();
+int my_server_set_write_size(uint32 write_size);
+void my_server_process_writeback(user_thread_data_t* data, int user_app_ret, int max_write_size);
 
 #endif  //__MYSERVER_H_
 

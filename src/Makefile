@@ -1,16 +1,14 @@
-#include ../makefile.env
+include ../makefile.env
 WORKROOT=../../
 CC=g++
-
-MYLOG_PATH=../../mylog/output/
-MYCONF_PATH=../../myconf/output/
 
 TARGET=libmyserver.a
 OBJS=myserver.o
 
 INCS=\
 	-I$(MYLOG_PATH)include \
-	-I$(MYCONF_PATH)include
+	-I$(MYCONF_PATH)include \
+	-I$(RAPID_JSON_PATH)include 
 
 LIBS=\
 	-L$(MYLOG_PATH)lib \

@@ -1,10 +1,6 @@
-#include ../makefile.env
+include ../makefile.env
 WORKROOT=../../
 CC=g++
-
-MYLOG_PATH=../../mylog/output/
-MYCONF_PATH=../../myconf/output/
-MYSERVER_PATH=../output/
 
 TARGET=sample
 OBJS=sample.o

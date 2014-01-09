@@ -20,18 +20,24 @@ $port = 2000;
 
 $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 
-$result = socket_connect($socket, $address, $port);
+if($socket == NULL){
+    echo "socket create fail\n";
+}
+
+@$result = socket_connect($socket, $address, $port);
+if($result == false){
+    echo "socket connect fail\n";
+    exit(1);
+}
 
 
-
-$in = "here is 1";
+$in = "test input";
 socket_write($socket, $in, strlen($in));
 
 $out = socket_read($socket, 8192);
-echo $out ."\n";
+$res = json_decode($out,true);
+var_dump($res);
 
-$in = "here is 2";
-socket_write($socket, $in, strlen($in));
 
 socket_close($socket);
 
