@@ -1,4 +1,4 @@
-mysever是一个基于epool模型的异步通信、返回结果为JSON的高性能服务器。它使用C++编写，需要通过[mylog](http://www.oschina.net/p/mylog)以及[myconf](http://www.oschina.net/p/myconf)这二者做编译依赖。和外界交互为JSON格式(使用开源库[repidjson](http://code.google.com/p/rapidjson/))。用户只需要配置好服务器，开始服务器，然后写通过用户自定义回调函数就可以轻松搭建一个高性能服务器。<br>
+myserver是一个基于epoll模型的异步通信、返回结果为JSON的高性能服务器。它使用C++编写，需要通过[mylog](http://www.oschina.net/p/mylog)以及[myconf](http://www.oschina.net/p/myconf)这二者做编译依赖。和外界交互为JSON格式(使用开源库[repidjson](http://code.google.com/p/rapidjson/))。用户只需要配置好服务器，开始服务器，然后写通过用户自定义回调函数就可以轻松搭建一个高性能服务器。<br>
 
 # 1. 安装(mylog, myconf, mysever如果放在同一目录不需要修改makefile.env)<br>
 ## a. 下载编译依赖mylog<br>
