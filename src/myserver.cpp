@@ -515,7 +515,7 @@ uint32 my_server_get_write_size()
 {
     void * ptr = pthread_getspecific(g_server_key);
     //因为需要加一层壳，所以只返回实际值的0.8
-    return ((user_thread_data_t*)ptr)->write_sizei * 4 / 5;
+    return ((user_thread_data_t*)ptr)->write_size * 4 / 5;
 }
 
 /* 获得线程读数据 */

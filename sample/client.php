@@ -15,7 +15,7 @@
  *  
  **/
 
-$address = '10.48.24.12';
+$address = '127.0.0.1';
 $port = 2000;
 
 $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
