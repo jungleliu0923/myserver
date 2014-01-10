@@ -1,19 +1,8 @@
 myserver是一个基于epoll模型的异步通信、返回结果为JSON的高性能服务器。它使用C++编写，需要通过[mylog](http://www.oschina.net/p/mylog)以及[myconf](http://www.oschina.net/p/myconf)这二者做编译依赖。和外界交互为JSON格式(使用开源库[repidjson](http://code.google.com/p/rapidjson/))。用户只需要配置好服务器，开始服务器，然后写通过用户自定义回调函数就可以轻松搭建一个高性能服务器。<br>
 
-# 1. 安装(mylog, myconf, mysever如果放在同一目录不需要修改makefile.env)<br>
-## a. 下载编译依赖mylog<br>
-$ git clone https://github.com/jungleliu0923/mylog (下载)<br>
-$ cd mylog && make (编译)<br> 
-
-## b. 下载编译依赖myconf<br>
-$ git clone https://github.com/jungleliu0923/myconf(下载)<br>
-$ cd myconf && make (编译请根据myconf说明指定相应的mylog路径)<br>
-
-## c. 下载myserver<br>
-$ git clone https://github.com/jungleliu0923/myserver(下载)<br>
-$ cd myserer<br> 
-$ make (编译, 在文件mysever/makefile.env指定mylog以及myconf的PATH)<br>
-$ cd sample && make (编译范例)<br>
+# 1. 安装
+## $ sh install.sh
+会自动下载mylog以及myconf<br>
 
 # 2. API<br>
 ## a. 创建一个服务器<br>
