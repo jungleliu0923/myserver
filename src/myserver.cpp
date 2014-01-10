@@ -272,6 +272,7 @@ void* epoll_main(void *args)
         //处理所发生的所有事件
         for (i = 0; i < nfds; ++i)
         {
+            my_log_reset_start_time();
             if (server->events[i].data.fd == server->server_fd)
             {
                 connfd = accept(server->server_fd, (sockaddr *) &clientaddr, &clilen);
@@ -385,7 +386,7 @@ void* epool_handle(void *args)
     user_thread_data_t *data = NULL;
     my_log_thread_init();
     my_log_set_mod(server->server_conf->server_name);
-    
+
     while (server->is_run)
     {
         pthread_mutex_lock(&server->mutex_ready);
@@ -400,6 +401,7 @@ void* epool_handle(void *args)
             pthread_cond_wait(&server->cond_ready, &server->mutex_ready);
         }
 
+        my_log_reset_start_time();
         fd = server->readhead->fd;
         data = (user_thread_data_t*) malloc( sizeof(user_thread_data_t));
         data->write_data = NULL;
