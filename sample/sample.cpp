@@ -16,9 +16,11 @@
 
 #include "myserver.h"
 #include <unistd.h>
+#include <signal.h>
 #include <iostream>
 using namespace std;
 
+my_server_t* server;
 
 int my_callback()
 {
@@ -37,10 +39,18 @@ int my_callback()
     return 0;
 }
 
+void signal_process(int sig_no)
+{
+    cout << "closing server\n";
+    my_server_close(server);
+    cout << "colsed server\n";
+}
+
 int main()
 {
     my_log_init("./log", "sample.log", "sample.log.wf", 16);
-    my_server_t* server = my_server_create("./conf/", "myserver.conf", "sample");
+    signal(SIGINT,signal_process);
+    server = my_server_create("./conf/", "myserver.conf", "sample");
     if(server == NULL)
     {
         cout << "create sever fail\n";
@@ -48,8 +58,6 @@ int main()
     }
     my_server_set_callback(server, my_callback);
     my_server_run(server);
-    sleep(10);
-    my_server_close(server);
     return 0;
 }
 

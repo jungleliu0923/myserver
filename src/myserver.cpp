@@ -19,6 +19,9 @@
 #include "rapidjson/writer.h"
 #include "rapidjson/stringbuffer.h"
 
+#include<iostream>
+using namespace std;
+
 static pthread_key_t g_server_key;
 static pthread_once_t  g_server_once=PTHREAD_ONCE_INIT;
 
@@ -114,7 +117,7 @@ my_server_t* my_server_init_data(my_server_conf_t* server_conf)
         MY_LOG_FATAL("my_server_init_data server is NULL");
         return NULL;
     }
-    
+
     pthread_mutex_init(&server->mutex_ready, NULL);
     pthread_cond_init(&server->cond_ready, NULL);
     
@@ -190,13 +193,18 @@ int my_server_run(my_server_t* server)
 {
     server->is_run = true;
     
+    pthread_create(&server->tmain, NULL, epoll_main, server);
     for(uint32 i=0;i<server->server_conf->thread_num; i++)
     {
         pthread_create(&server->threads[i], NULL, epool_handle, server);
     }
 
-    pthread_create(&server->tmain, NULL, epoll_main, server);
-
+    pthread_join(server->tmain, NULL);
+    for(uint32 i=0;i<server->server_conf->thread_num; i++)
+    {
+        pthread_join(server->threads[i], NULL);
+    }
+    
     return 0;
 }
 
@@ -204,40 +212,11 @@ int my_server_run(my_server_t* server)
 int my_server_close(my_server_t* server)
 {
     server->is_run = false;
- 
-    for(uint32 i=0;i<server->server_conf->thread_num; i++)
-    {
-        pthread_cond_broadcast(&server->cond_ready);
-        pthread_join(server->threads[i], NULL);
-    }
-    pthread_join(server->tmain, NULL);
-
-    if( server-> threads != NULL)
-    {
-        free(server-> threads);
-        server-> threads = NULL;
-    }
-
-    if( server-> events != NULL)
-    {
-        free(server-> events);
-        server-> events = NULL;
-    }
-
-    if ( server-> readhead != NULL)
-    {
-        task_t* current = server->readhead;
-        task_t* tmp;
-        while(current != NULL)
-        {
-            tmp = current;
-            current = current->next;
-            free(tmp);
-        }
-    }
     
-    free( server->server_conf);
-    free(server);
+    for(uint32 i=0; i<server->server_conf->thread_num; i++)
+    {
+        pthread_cond_signal(&server->cond_ready);
+    }
     return 0;
 }
 
@@ -329,7 +308,7 @@ void* epoll_main(void *args)
                     server->readtail->next = new_task;
                 }
                 //唤醒所有等待server->cond_ready条件的线程
-                pthread_cond_broadcast(&server->cond_ready);
+                pthread_cond_signal(&server->cond_ready);
                 pthread_mutex_unlock(&server->mutex_ready);
             } 
             else if (server->events[i].events & EPOLLOUT)
@@ -371,6 +350,7 @@ void* epoll_main(void *args)
             }
         }
     }
+    
     pthread_exit(0);
 }
 
@@ -391,14 +371,15 @@ void* epool_handle(void *args)
     {
         pthread_mutex_lock(&server->mutex_ready);
         //等待到任务队列不为空
+        int j = 0;
         while (server->readhead == NULL)
         {
+            pthread_cond_wait(&server->cond_ready, &server->mutex_ready);
             if( server->is_run == false )
             {
                 pthread_mutex_unlock(&server->mutex_ready);
                 return NULL;
             }
-            pthread_cond_wait(&server->cond_ready, &server->mutex_ready);
         }
 
         my_log_reset_start_time();
@@ -502,7 +483,7 @@ void* epool_handle(void *args)
             epoll_ctl(server->epfd, EPOLL_CTL_MOD, fd, &ev);
         }
     }
-    pthread_exit(0);
+    pthread_exit(NULL);
 }
 
 /* 获得线程读大小 */
