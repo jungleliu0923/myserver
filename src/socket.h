@@ -30,7 +30,10 @@
 #include <netdb.h>
 #include <arpa/inet.h>
 
+/* 设置socket非阻塞 */
 int set_socket_non_blocking (int sockek_fd);
+
+/* 根据port, backlog 创建一个socket */
 int create_server_socket(int port, uint32 backlog);
 
 #endif  //__SOCKET_H_

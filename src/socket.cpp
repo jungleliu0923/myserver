@@ -18,6 +18,7 @@
 #include "myserver_define.h"
 #include "socket.h"
 
+/* 设置socket非阻塞 */
 int set_socket_non_blocking (int sockek_fd)
 {
     int flags, s;
@@ -39,7 +40,7 @@ int set_socket_non_blocking (int sockek_fd)
     return 0;
 }
 
-
+/* 根据port, backlog 创建一个socket */
 int create_server_socket(int port, uint32 backlog)
 {
     int socket_fd;

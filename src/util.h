@@ -27,6 +27,7 @@
 #include "rapidjson/writer.h"
 #include "rapidjson/stringbuffer.h"
 
+/* 处理返回结果 */
 void my_server_process_writeback(user_thread_data_t* data, int user_app_ret, uint32 max_write_size);
 
 #endif  //__UTIL_H_

@@ -24,22 +24,15 @@
 #include <sys/epoll.h>
 #include "myserver_define.h"
 
+
+extern pthread_key_t g_server_key;
+extern pthread_once_t g_server_once;
+
+/* 生产着线程 */
 void* epoll_main(void *param);
+
+/* 消费者线程 */
 void* epoll_process(void* param) ;
-
-/* 获得线程读大小 */
-uint32 lj_server_get_read_size();
-
-/* 获得线程读数据 */
-void* lj_server_get_read_buf();
-
-/* 获得线程最大写大小*/
-uint32 lj_server_get_write_size();
-/* 获得线程最大写数据 */
-void* lj_server_get_write_buf();
-
-/* 设置线程实际返回写数据大小 */
-int lj_server_set_write_size(uint32 write_size);
 
 
 #endif  //__EPOLLSERVER_H_

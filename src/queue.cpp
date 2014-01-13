@@ -1,3 +1,5 @@
+//从网上copy, int queue满足要求，换成void* 范围效率不好
+
 #include "queue.h"
 
 bool init_queue(link_queue_t* &queue) 

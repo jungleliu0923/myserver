@@ -19,15 +19,17 @@
 #include "util.h"
 #include <pthread.h>
 
-static pthread_key_t g_server_key;
-static pthread_once_t  g_server_once=PTHREAD_ONCE_INIT;
+pthread_key_t g_server_key;
+pthread_once_t  g_server_once=PTHREAD_ONCE_INIT;
 
 static void gen_server_key()
 {
     pthread_key_create(&g_server_key, NULL);
 }
 
-void*  epoll_main(void *param)
+/* 生产者线程 */
+
+void* epoll_main(void *param)
 {
     my_server_t* server = (my_server_t*) param;
     
@@ -100,6 +102,7 @@ void*  epoll_main(void *param)
                     }
                     event.data.fd = infd;
                     event.events = EPOLLIN | EPOLLET;
+                    //等待读
                     ret = epoll_ctl (epfd, EPOLL_CTL_ADD, infd, &event);
                     if (ret == -1)
                     {
@@ -119,6 +122,7 @@ void*  epoll_main(void *param)
                     my_log_set_reqip( inet_ntoa(*(struct in_addr *)&clientaddr.sin_addr.s_addr) );
                 }
                 my_log_set_logid(events[i].data.fd);
+                //放入队列
                 pthread_mutex_lock(&server->mutex_ready);
                 en_queue(server->queue, events[i].data.fd);
                 pthread_cond_signal(&server->cond_ready);
@@ -137,6 +141,7 @@ void*  epoll_main(void *param)
     return NULL;
 }
 
+/* 消费者线程 */
 void* epoll_process(void* param)
 {
     pthread_once(&g_server_once, gen_server_key);
@@ -214,6 +219,7 @@ void* epoll_process(void* param)
             memset(data->write_data, 0,  data->write_size);
 
             int ret = 0;
+            //如果有用户回调，那么就执行回调函数
             if( server->user_callback == NULL)
             {
                 MY_LOG_WARNNING("user call back is null");
@@ -223,8 +229,10 @@ void* epoll_process(void* param)
                 ret = server->user_callback();
             }
 
+            //处理结果，返回为JSON
             my_server_process_writeback(data, ret, server->server_conf->write_size );
 
+            //写回
             int write_size = write(fd, data->write_data, data->write_size);
             if( 0 <= write_size)
             {
