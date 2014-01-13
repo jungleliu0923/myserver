@@ -3,7 +3,7 @@ WORKROOT=../../
 CC=g++
 
 TARGET=libmyserver.a
-OBJS=myserver.o
+OBJS=queue.o socket.o util.o epollserver.o myserver.o
 
 INCS=\
 	-I$(MYLOG_PATH)include \
