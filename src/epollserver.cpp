@@ -249,51 +249,5 @@ void* epoll_process(void* param)
     return NULL;
 }
 
-/* 获得线程读大小 */
-uint32 lj_server_get_read_size()
-{
-    void * ptr = pthread_getspecific(g_server_key);
-    return ( (user_thread_data_t*)ptr) ->read_size;
-}
-
-/* 获得线程最大写大小*/
-uint32 lj_server_get_write_size()
-{
-    void * ptr = pthread_getspecific(g_server_key);
-    //因为需要加一层壳，所以只返回实际值的0.8
-    return ((user_thread_data_t*)ptr)->write_size * 4 / 5;
-}
-
-/* 获得线程读数据 */
-void* lj_server_get_read_buf()
-{
-    void * ptr = pthread_getspecific(g_server_key);
-    return ((user_thread_data_t*)ptr)->read_data;
-}
-
-/* 获得线程写数据 */
-void* lj_server_get_write_buf()
-{
-    void * ptr = pthread_getspecific(g_server_key);
-    return ((user_thread_data_t*)ptr)->write_data;
-}
-
-/* 设置线程实际返回写数据大小 */
-int lj_server_set_write_size(uint32 write_size)
-{
-    void * ptr = pthread_getspecific(g_server_key);
-    if( NULL == ptr)
-    {
-        return -1;
-    }
-    else
-    {
-        user_thread_data_t* user_t_data = (user_thread_data_t*)ptr;
-        user_t_data->write_size = write_size;
-    }
-    return 0;
-}
-
-
 
 /* vim: set expandtab ts=4 sw=4 sts=4 tw=100: */
