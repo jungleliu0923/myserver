@@ -1,0 +1,1495 @@
+DEBUG: 2014-01-11 17:25:02 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[178(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:25:02 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[259(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:25:02 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[267(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:25:02 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[273(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:25:02 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[278(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:25:02 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[284(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-11 17:25:05 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [test input], return succ"}
+TRACE: 2014-01-11 17:25:07 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:25:07 [myserver.cpp:323] logid[8] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:25:07 [myserver.cpp:323] logid[9] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:25:07 [myserver.cpp:323] logid[10] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:25:07 [myserver.cpp:323] logid[12] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:25:07 [myserver.cpp:323] logid[13] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:25:22 [myserver.cpp:323] logid[14] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:25:49 [myserver.cpp:323] logid[15] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+DEBUG: 2014-01-11 17:27:41 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[191(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:27:41 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[271(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:27:41 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[278(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:27:41 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[284(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:27:41 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[290(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:27:41 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[295(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-11 17:27:48 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [test input], return succ"}
+TRACE: 2014-01-11 17:27:51 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[3(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:27:51 [myserver.cpp:323] logid[8] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:27:51 [myserver.cpp:323] logid[9] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:27:51 [myserver.cpp:323] logid[10] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:27:51 [myserver.cpp:323] logid[11] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:27:51 [myserver.cpp:323] logid[12] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:27:51 [myserver.cpp:323] logid[13] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:27:56 [myserver.cpp:323] logid[14] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+DEBUG: 2014-01-11 17:31:05 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[159(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:31:05 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[266(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:31:05 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[274(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:31:05 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[280(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:31:05 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[285(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:31:05 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[290(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-11 17:31:09 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [test input], return succ"}
+TRACE: 2014-01-11 17:31:09 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [test input], return succ"}
+TRACE: 2014-01-11 17:31:13 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:31:15 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:31:44 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:32:28 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:34:32 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:35:58 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:36:00 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:36:00 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:36:07 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:36:33 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:36:34 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:36:35 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:36:36 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:36:53 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [test input], return succ"}
+TRACE: 2014-01-11 17:36:54 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [test input], return succ"}
+TRACE: 2014-01-11 17:37:20 [myserver.cpp:323] logid[8] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:37:20 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:37:24 [myserver.cpp:323] logid[10] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:37:48 [myserver.cpp:323] logid[9] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:37:53 [myserver.cpp:323] logid[8] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:37:53 [myserver.cpp:323] logid[9] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [test input], return succ"}
+TRACE: 2014-01-11 17:37:53 [myserver.cpp:323] logid[10] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:37:53 [myserver.cpp:323] logid[11] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:38:57 [myserver.cpp:323] logid[9] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:38:57 [myserver.cpp:323] logid[8] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+DEBUG: 2014-01-11 17:39:09 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[200(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:39:09 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[273(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:39:09 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[280(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:39:09 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[286(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:39:09 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[292(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:39:09 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[297(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-11 17:39:12 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [test input], return succ"}
+TRACE: 2014-01-11 17:39:14 [myserver.cpp:323] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:39:14 [myserver.cpp:323] logid[8] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+DEBUG: 2014-01-11 17:40:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[196(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:40:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[269(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:40:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[276(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:40:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[282(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:40:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[303(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:40:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[309(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-11 17:41:01 [myserver.cpp:327] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:41:01 [myserver.cpp:327] logid[10] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:41:01 [myserver.cpp:327] logid[8] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:41:01 [myserver.cpp:327] logid[9] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+DEBUG: 2014-01-11 17:42:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[210(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:42:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[284(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:42:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[291(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:42:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[297(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:42:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[302(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:42:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[308(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-11 17:42:31 [myserver.cpp:327] logid[7] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-11 17:42:31 [myserver.cpp:327] logid[8] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+DEBUG: 2014-01-11 17:43:29 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[160(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:43:29 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[250(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:43:29 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[259(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:43:29 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[265(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:43:29 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[271(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:43:29 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[276(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-11 17:44:31 [myserver.cpp:327] logid[10] reqip[127.0.0.1] mod[sample] exec_time[1982902(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+DEBUG: 2014-01-11 17:46:40 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[166(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:46:40 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[238(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:46:40 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[245(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:46:40 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[251(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:46:40 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[256(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:46:40 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[262(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 17:49:11 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[182(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:49:11 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[267(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:49:11 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[274(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:49:11 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[280(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:49:11 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[285(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:49:11 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[291(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 17:50:26 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[182(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:50:26 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[260(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:50:26 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[268(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:50:26 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[274(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:50:26 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[279(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:50:26 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[284(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 17:52:33 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[170(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:52:33 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[241(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:52:33 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[248(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:52:33 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[254(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:52:33 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[260(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:52:33 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[265(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 17:53:14 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[195(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:53:14 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[279(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:53:14 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[287(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:53:14 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[293(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:53:14 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[298(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:53:14 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[304(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 17:59:56 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[237(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 17:59:56 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[319(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 17:59:56 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[327(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 17:59:56 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[333(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 17:59:56 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[338(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 17:59:56 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[359(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 18:02:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[186(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 18:02:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[263(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 18:02:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[271(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 18:02:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[277(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 18:02:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[282(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 18:02:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[288(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 18:03:49 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[194(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 18:03:49 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[270(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 18:03:49 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[278(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 18:03:49 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[284(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 18:03:49 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[289(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 18:03:49 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[294(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 18:04:39 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[179(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 18:04:39 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[259(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 18:04:39 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[267(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 18:04:39 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[273(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 18:04:39 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[278(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 18:04:39 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[283(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 18:05:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[199(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 18:05:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[276(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 18:05:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[283(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 18:05:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[289(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 18:05:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[294(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 18:05:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[299(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 18:06:38 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[200(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 18:06:38 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[280(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 18:06:38 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[287(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 18:06:38 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[293(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 18:06:38 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[317(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 18:06:38 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[323(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 18:08:42 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[176(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 18:08:42 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[250(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 18:08:42 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[258(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 18:08:42 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[264(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 18:08:42 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[269(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 18:08:42 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[274(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 18:11:19 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[170(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 18:11:19 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[248(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 18:11:19 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[256(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 18:11:19 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[262(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 18:11:19 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[267(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 18:11:19 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[273(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 18:11:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[188(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 18:11:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[258(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 18:11:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[266(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 18:11:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[271(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 18:11:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[277(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 18:11:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[282(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 18:12:55 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[198(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 18:12:55 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[274(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 18:12:55 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[281(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 18:12:55 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[287(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 18:12:55 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[292(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 18:12:55 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[297(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 18:23:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[176(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 18:23:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[250(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 18:23:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[257(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 18:23:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[275(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 18:23:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[281(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 18:23:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[286(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-11 19:54:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[214(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-11 19:54:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[376(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-11 19:54:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[384(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-11 19:54:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[390(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-11 19:54:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[395(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-11 19:54:25 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[400(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-12 17:07:27 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[280(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-12 17:07:27 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[395(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-12 17:07:27 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[405(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-12 17:07:27 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[412(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-12 17:07:27 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[417(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-12 17:07:27 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[423(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-12 17:11:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[245(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-12 17:11:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[315(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-12 17:11:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[323(us)] key is [_server_sample_listen_back], value is [20]
+DEBUG: 2014-01-12 17:11:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[329(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-12 17:11:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[334(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-12 17:11:46 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[340(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-12 17:11:52 [myserver.cpp:340] logid[8] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:11:52 [myserver.cpp:340] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:11:52 [myserver.cpp:340] logid[10] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:11:52 [myserver.cpp:340] logid[9] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:11:52 [myserver.cpp:340] logid[11] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:11:52 [myserver.cpp:340] logid[13] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:11:52 [myserver.cpp:340] logid[12] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:11 [myserver.cpp:340] logid[7] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:11 [myserver.cpp:340] logid[13] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:11 [myserver.cpp:340] logid[9] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:11 [myserver.cpp:340] logid[12] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:11 [myserver.cpp:340] logid[10] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:11 [myserver.cpp:340] logid[14] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:30 [myserver.cpp:340] logid[11] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:38 [myserver.cpp:340] logid[9] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:38 [myserver.cpp:340] logid[10] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:38 [myserver.cpp:340] logid[7] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:38 [myserver.cpp:340] logid[14] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:38 [myserver.cpp:340] logid[15] reqip[127.0.0.1] mod[sample] exec_time[1(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:51 [myserver.cpp:340] logid[11] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+TRACE: 2014-01-12 17:12:51 [myserver.cpp:340] logid[12] reqip[127.0.0.1] mod[sample] exec_time[2(us)] write data is {"errno":0,"data":"input is [消息内容], return succ"}
+DEBUG: 2014-01-13 14:46:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[184(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 14:46:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[307(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 14:46:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[356(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 14:46:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[363(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 14:46:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[368(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 14:47:01 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[5121298(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 14:47:01 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[5121386(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 14:47:01 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[5121407(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 14:47:01 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[5121413(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 14:47:01 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[5121419(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 14:51:43 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[173(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 14:51:43 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[249(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 14:51:43 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[270(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 14:51:43 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[275(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 14:51:43 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[281(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 14:53:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[176(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 14:53:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[254(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 14:53:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[274(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 14:53:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[280(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 14:53:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[285(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 14:56:47 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[171(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 14:56:47 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[270(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 14:56:47 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[290(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 14:56:47 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[296(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 14:56:47 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[301(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 14:57:36 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[166(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 14:57:36 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[242(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 14:57:36 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[264(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 14:57:36 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[270(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 14:57:36 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[276(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 14:59:42 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[186(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 14:59:42 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[261(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 14:59:42 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[282(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 14:59:42 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[288(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 14:59:42 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[293(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 15:11:58 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[268(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 15:11:58 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[341(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 15:11:58 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[361(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 15:11:58 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[367(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 15:11:58 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[388(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 15:12:22 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[193(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 15:12:22 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[264(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 15:12:22 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[304(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 15:12:22 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[310(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 15:12:22 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[316(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 15:13:09 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[195(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 15:13:09 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[357(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 15:13:09 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[379(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 15:13:09 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[385(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 15:13:09 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[390(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 15:14:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[170(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 15:14:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[238(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 15:14:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[258(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 15:14:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[264(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 15:14:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[269(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 15:14:53 [epollserver.cpp:114] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+DEBUG: 2014-01-13 15:16:03 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[182(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 15:16:03 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[266(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 15:16:03 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[286(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 15:16:03 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[292(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 15:16:03 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[298(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 15:17:35 [epollserver.cpp:114] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+DEBUG: 2014-01-13 15:19:43 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[179(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 15:19:43 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[252(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 15:19:43 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[273(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 15:19:43 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[278(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 15:19:43 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[284(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 15:19:48 [epollserver.cpp:114] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+DEBUG: 2014-01-13 16:37:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[325(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 16:37:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[463(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 16:37:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[531(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 16:37:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[542(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 16:37:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[548(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 16:38:03 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:03 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:03 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:03 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:03 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 16:38:03 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 16:38:03 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 16:38:08 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:08 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:08 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:08 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:08 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:08 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:08 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:14 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:14 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:14 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:14 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:14 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 16:38:14 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 16:38:14 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 16:38:14 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 16:38:17 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 16:38:18 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:19 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 16:38:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 16:38:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 16:38:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 16:38:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 16:38:24 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:24 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:24 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:24 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:24 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 16:38:24 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 16:38:24 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:31 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:31 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 16:38:31 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:31 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 16:38:31 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 16:38:31 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 16:38:31 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+DEBUG: 2014-01-13 17:46:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[419(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:46:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[502(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:46:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[522(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:46:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[528(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:46:51 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[534(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 17:46:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:46:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:46:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:46:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:46:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:46:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:46:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:46:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:47:12 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:47:12 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:47:13 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:47:13 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:47:13 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:47:13 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:47:13 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:47:13 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+DEBUG: 2014-01-13 17:47:23 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[170(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:47:23 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[249(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:47:23 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[268(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:47:23 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[274(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:47:23 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[279(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 17:47:31 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[164(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:47:31 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[236(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:47:31 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[256(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:47:31 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[262(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:47:31 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[268(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 17:48:00 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[243(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:48:00 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[316(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:48:00 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[335(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:48:00 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[341(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:48:00 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[346(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 17:48:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[2802667(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:48:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[2802750(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:48:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[2802770(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:48:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[2802776(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:48:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[2802803(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 17:48:36 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:48:36 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:48:36 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:48:36 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 15
+TRACE: 2014-01-13 17:48:36 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 16
+TRACE: 2014-01-13 17:48:36 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 17
+TRACE: 2014-01-13 17:48:36 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 18
+TRACE: 2014-01-13 17:48:36 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 15
+TRACE: 2014-01-13 17:48:36 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 16
+TRACE: 2014-01-13 17:48:40 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:48:40 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:48:40 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:48:40 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 15
+TRACE: 2014-01-13 17:48:40 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 16
+TRACE: 2014-01-13 17:48:40 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 17
+TRACE: 2014-01-13 17:48:40 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 18
+TRACE: 2014-01-13 17:48:40 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 15
+DEBUG: 2014-01-13 17:50:18 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[166(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:50:18 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[242(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:50:18 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[263(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:50:18 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[269(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:50:18 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[282(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 17:50:23 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:50:23 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:50:23 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+DEBUG: 2014-01-13 17:53:39 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[167(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:53:39 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[248(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:53:39 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[268(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:53:39 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[274(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:53:39 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[279(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 17:53:42 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:42 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:42 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:42 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:42 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:42 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:42 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:42 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:47 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:47 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:47 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:47 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:47 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:47 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:47 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:48 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:49 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:50 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:51 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:52 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:53 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:54 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:53:55 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+DEBUG: 2014-01-13 17:54:31 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[164(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:54:31 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[234(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:54:31 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[254(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:54:31 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[260(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:54:31 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[265(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 17:54:52 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[162(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:54:52 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[231(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:54:52 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[274(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:54:52 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[281(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:54:52 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[286(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 17:54:59 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[156(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:54:59 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[228(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:54:59 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[250(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:54:59 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[256(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:54:59 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[261(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 17:55:08 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[2253619(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:55:08 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[2253704(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:55:08 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[2253724(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:55:08 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[2253730(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:55:08 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[2253736(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 17:57:15 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[167(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:57:15 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[242(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:57:15 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[262(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:57:15 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[268(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:57:15 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[273(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 17:57:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[204(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 17:57:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[279(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 17:57:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[298(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 17:57:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[304(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 17:57:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[309(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 17:57:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:57:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:57:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:57:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:57:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:57:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:57:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:57:20 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:57:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:57:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:57:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:57:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:57:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:57:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:57:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:57:21 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:57:22 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:57:22 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:57:22 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:57:22 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:57:22 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:57:22 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:57:22 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:57:34 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:57:34 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:57:34 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:57:34 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:57:34 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:57:34 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 17:57:34 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 17:57:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:57:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 17:57:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 17:57:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 17:57:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 17:57:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 17:57:46 [epollserver.cpp:113] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+DEBUG: 2014-01-13 18:05:21 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[183(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 18:05:21 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[260(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 18:05:21 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[281(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 18:05:21 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[287(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 18:05:21 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[292(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=25804)
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=25805)
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=25803)
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=25806)
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=25808)
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=25807)
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 14 (host=127.0.0.1, port=25809)
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 14
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:05:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=25819)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=25820)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=25821)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=25823)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=25822)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=25824)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=25825)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=25832)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=25833)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=25835)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=25836)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=25837)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=25838)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=25839)
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:05:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+DEBUG: 2014-01-13 18:06:35 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[161(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 18:06:35 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[234(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 18:06:35 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[255(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 18:06:35 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[261(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 18:06:35 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[266(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26493)
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26494)
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26496)
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=26497)
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=26499)
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=26498)
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=26500)
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:06:37 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26506)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26507)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26508)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=26511)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=26512)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=26513)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26514)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26519)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26520)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26521)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=26522)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26523)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26524)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=26525)
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:38 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26526)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26527)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26528)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=26529)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=26530)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=26531)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=26532)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26535)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26536)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26537)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=26538)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=26539)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=26540)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26541)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26546)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26547)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26548)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=26550)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26551)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26552)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=26553)
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:39 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26556)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26557)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26558)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=26562)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=26563)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=26564)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=26565)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26571)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26572)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26573)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=26574)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=26575)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26577)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26576)
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:40 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26579)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26580)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26582)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=26581)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=26583)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=26585)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=26584)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26589)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26591)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26590)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=26594)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=26595)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26596)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26597)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26601)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26600)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26602)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26603)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26604)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26605)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=26606)
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:41 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26608)
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=26609)
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=26610)
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=26611)
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=26612)
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=26613)
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=26614)
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:06:42 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+DEBUG: 2014-01-13 18:08:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[247(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 18:08:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[318(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 18:08:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[340(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 18:08:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[346(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 18:08:16 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[352(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=49936)
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=49935)
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=49937)
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=49939)
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=49941)
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=49942)
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=49943)
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:08:18 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=49949)
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=49950)
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=49951)
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=49952)
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=49953)
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=49954)
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=49955)
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:08:19 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=49964)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=49965)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=49967)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=49969)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=49968)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=49971)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=49970)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=49990)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=49991)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=49993)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=49994)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=49995)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=49996)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=49997)
+TRACE: 2014-01-13 18:08:20 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=49999)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=50001)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=50000)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=50003)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=50004)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=50005)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=50006)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=50007)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=50008)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=50009)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=50010)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=50012)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=50011)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=50013)
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:08:21 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+DEBUG: 2014-01-13 18:10:34 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[185(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 18:10:34 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[258(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 18:10:34 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[280(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 18:10:34 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[285(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 18:10:34 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[291(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 18:22:49 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[261(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 18:22:49 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[340(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 18:22:49 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[372(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 18:22:49 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[387(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 18:22:49 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[393(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=36654)
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=36656)
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=36655)
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=36657)
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=36659)
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=36658)
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=36660)
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:51:25 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=36669)
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=36671)
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=36670)
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=36672)
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=36673)
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=36675)
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=36674)
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:51:26 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=36680)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=36681)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=36682)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=36683)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=36684)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=36685)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=36686)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=36693)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=36694)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=36695)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=36696)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=36697)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=36698)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=36699)
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:51:27 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=36706)
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=36708)
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=36707)
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=36709)
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=36710)
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 12 (host=127.0.0.1, port=36711)
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 13 (host=127.0.0.1, port=36712)
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 12
+TRACE: 2014-01-13 18:51:28 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 13
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=36723)
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=36725)
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=127.0.0.1, port=36724)
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=127.0.0.1, port=36726)
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 11 (host=127.0.0.1, port=36727)
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 11
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=127.0.0.1, port=36728)
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=127.0.0.1, port=36729)
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:51:30 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=10.46.175.102, port=47987)
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=10.46.175.102, port=47988)
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=10.46.175.102, port=47989)
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=10.46.175.102, port=47990)
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=10.46.175.102, port=47991)
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=10.46.175.102, port=47992)
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 10 (host=10.46.175.102, port=47993)
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:52:31 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 10
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=10.46.175.102, port=48020)
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=10.46.175.102, port=48026)
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=10.46.175.102, port=48021)
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=10.46.175.102, port=48024)
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 7 (host=10.46.175.102, port=48025)
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 8 (host=10.46.175.102, port=48022)
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:85] logid[0] reqip[] mod[] exec_time[(null)] Accepted connection on descriptor 9 (host=10.46.175.102, port=48023)
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 7
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 8
+TRACE: 2014-01-13 18:52:32 [epollserver.cpp:108] logid[0] reqip[] mod[] exec_time[(null)] succ add 9
+DEBUG: 2014-01-13 19:01:18 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[325(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 19:01:18 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[405(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 19:01:18 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[427(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 19:01:18 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[433(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 19:01:18 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[438(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:91] logid[0] reqip[] mod[sample] exec_time[40(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=31291)
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[117(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=31290)
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:91] logid[8] reqip[127.0.0.1] mod[sample] exec_time[132(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=31292)
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:91] logid[9] reqip[127.0.0.1] mod[sample] exec_time[144(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=31293)
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:91] logid[10] reqip[127.0.0.1] mod[sample] exec_time[156(us)] accepted connection on descriptor 11 (host=127.0.0.1, port=31294)
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[15(us)] succ add 7
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[48(us)] succ add 8
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:128] logid[9] reqip[UNKNOW] mod[sample] exec_time[10(us)] succ add 9
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:128] logid[10] reqip[UNKNOW] mod[sample] exec_time[13(us)] succ add 10
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:128] logid[11] reqip[UNKNOW] mod[sample] exec_time[122(us)] succ add 11
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:91] logid[11] reqip[UNKNOW] mod[sample] exec_time[6(us)] accepted connection on descriptor 12 (host=127.0.0.1, port=31295)
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:91] logid[12] reqip[127.0.0.1] mod[sample] exec_time[19(us)] accepted connection on descriptor 13 (host=127.0.0.1, port=31296)
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:128] logid[12] reqip[UNKNOW] mod[sample] exec_time[8(us)] succ add 12
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:128] logid[13] reqip[UNKNOW] mod[sample] exec_time[8(us)] succ add 13
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:128] logid[11] reqip[UNKNOW] mod[sample] exec_time[487(us)] succ add 11
+TRACE: 2014-01-13 19:03:36 [epollserver.cpp:128] logid[9] reqip[UNKNOW] mod[sample] exec_time[7(us)] succ add 9
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:91] logid[9] reqip[UNKNOW] mod[sample] exec_time[25(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=31301)
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[65(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=31302)
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:91] logid[8] reqip[127.0.0.1] mod[sample] exec_time[86(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=31303)
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:91] logid[9] reqip[127.0.0.1] mod[sample] exec_time[222(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=31304)
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:91] logid[10] reqip[127.0.0.1] mod[sample] exec_time[237(us)] accepted connection on descriptor 11 (host=127.0.0.1, port=31305)
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:91] logid[11] reqip[127.0.0.1] mod[sample] exec_time[248(us)] accepted connection on descriptor 12 (host=127.0.0.1, port=31307)
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:91] logid[12] reqip[127.0.0.1] mod[sample] exec_time[260(us)] accepted connection on descriptor 13 (host=127.0.0.1, port=31306)
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[10(us)] succ add 7
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[9(us)] succ add 8
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:128] logid[9] reqip[UNKNOW] mod[sample] exec_time[28(us)] succ add 9
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:128] logid[10] reqip[UNKNOW] mod[sample] exec_time[22(us)] succ add 10
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:128] logid[11] reqip[UNKNOW] mod[sample] exec_time[45(us)] succ add 11
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:128] logid[12] reqip[UNKNOW] mod[sample] exec_time[156(us)] succ add 12
+TRACE: 2014-01-13 19:03:37 [epollserver.cpp:128] logid[13] reqip[UNKNOW] mod[sample] exec_time[9(us)] succ add 13
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[13] reqip[UNKNOW] mod[sample] exec_time[29(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=31311)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[64(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=31312)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[8] reqip[127.0.0.1] mod[sample] exec_time[77(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=31313)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[49(us)] succ add 7
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[10(us)] succ add 8
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[9] reqip[UNKNOW] mod[sample] exec_time[26(us)] succ add 9
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[9] reqip[UNKNOW] mod[sample] exec_time[6(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=31314)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[10] reqip[127.0.0.1] mod[sample] exec_time[18(us)] accepted connection on descriptor 11 (host=127.0.0.1, port=31315)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[10] reqip[UNKNOW] mod[sample] exec_time[9(us)] succ add 10
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[11] reqip[UNKNOW] mod[sample] exec_time[12(us)] succ add 11
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[11] reqip[UNKNOW] mod[sample] exec_time[6(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=31316)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[7(us)] succ add 8
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[8] reqip[UNKNOW] mod[sample] exec_time[6(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=31317)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[7(us)] succ add 8
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[8(us)] succ add 7
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[7] reqip[UNKNOW] mod[sample] exec_time[19(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=31334)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[59(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=31335)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[49(us)] succ add 7
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[56(us)] succ add 8
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[8] reqip[UNKNOW] mod[sample] exec_time[5(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=31336)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[9] reqip[UNKNOW] mod[sample] exec_time[8(us)] succ add 9
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[9] reqip[UNKNOW] mod[sample] exec_time[5(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=31337)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[10] reqip[UNKNOW] mod[sample] exec_time[8(us)] succ add 10
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[10] reqip[UNKNOW] mod[sample] exec_time[6(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=31338)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[12(us)] succ add 8
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[8] reqip[UNKNOW] mod[sample] exec_time[6(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=31339)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[12(us)] succ add 7
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:91] logid[7] reqip[UNKNOW] mod[sample] exec_time[13(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=31340)
+TRACE: 2014-01-13 19:03:38 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[7(us)] succ add 7
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:91] logid[7] reqip[UNKNOW] mod[sample] exec_time[26(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=31497)
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[183(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=31498)
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:91] logid[8] reqip[127.0.0.1] mod[sample] exec_time[199(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=31500)
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:91] logid[9] reqip[127.0.0.1] mod[sample] exec_time[210(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=31501)
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:91] logid[10] reqip[127.0.0.1] mod[sample] exec_time[221(us)] accepted connection on descriptor 11 (host=127.0.0.1, port=31504)
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:91] logid[11] reqip[127.0.0.1] mod[sample] exec_time[231(us)] accepted connection on descriptor 12 (host=127.0.0.1, port=31502)
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:91] logid[12] reqip[127.0.0.1] mod[sample] exec_time[242(us)] accepted connection on descriptor 13 (host=127.0.0.1, port=31503)
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[8(us)] succ add 7
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[65(us)] succ add 8
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:128] logid[9] reqip[UNKNOW] mod[sample] exec_time[63(us)] succ add 9
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:128] logid[10] reqip[UNKNOW] mod[sample] exec_time[17(us)] succ add 10
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:128] logid[11] reqip[UNKNOW] mod[sample] exec_time[5(us)] succ add 11
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:128] logid[12] reqip[UNKNOW] mod[sample] exec_time[6(us)] succ add 12
+TRACE: 2014-01-13 19:03:57 [epollserver.cpp:128] logid[13] reqip[UNKNOW] mod[sample] exec_time[15(us)] succ add 13
+DEBUG: 2014-01-13 19:09:48 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[154(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 19:09:48 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[228(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 19:09:48 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[247(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 19:09:48 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[253(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 19:09:48 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[259(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:91] logid[0] reqip[] mod[sample] exec_time[53(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=60839)
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[92(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=60840)
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:91] logid[8] reqip[127.0.0.1] mod[sample] exec_time[106(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=60841)
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[86(us)] succ add 7
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[27(us)] succ add 8
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:128] logid[9] reqip[UNKNOW] mod[sample] exec_time[13(us)] succ add 9
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:91] logid[9] reqip[UNKNOW] mod[sample] exec_time[5(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=60842)
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:91] logid[10] reqip[127.0.0.1] mod[sample] exec_time[18(us)] accepted connection on descriptor 11 (host=127.0.0.1, port=60843)
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:91] logid[11] reqip[127.0.0.1] mod[sample] exec_time[29(us)] accepted connection on descriptor 12 (host=127.0.0.1, port=60845)
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:91] logid[12] reqip[127.0.0.1] mod[sample] exec_time[42(us)] accepted connection on descriptor 13 (host=127.0.0.1, port=60844)
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:128] logid[10] reqip[UNKNOW] mod[sample] exec_time[165(us)] succ add 10
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:128] logid[11] reqip[UNKNOW] mod[sample] exec_time[7(us)] succ add 11
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:128] logid[12] reqip[UNKNOW] mod[sample] exec_time[11(us)] succ add 12
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:128] logid[13] reqip[UNKNOW] mod[sample] exec_time[27(us)] succ add 13
+TRACE: 2014-01-13 19:09:56 [epollserver.cpp:128] logid[11] reqip[UNKNOW] mod[sample] exec_time[8(us)] succ add 11
+DEBUG: 2014-01-13 19:12:34 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[161(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 19:12:34 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[232(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 19:12:34 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[252(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 19:12:34 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[258(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 19:12:34 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[264(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:91] logid[0] reqip[] mod[sample] exec_time[46(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=10889)
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[85(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=10890)
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:91] logid[8] reqip[127.0.0.1] mod[sample] exec_time[98(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=10891)
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[57(us)] succ add 7
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[6(us)] succ add 8
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:128] logid[9] reqip[UNKNOW] mod[sample] exec_time[20(us)] succ add 9
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:91] logid[9] reqip[UNKNOW] mod[sample] exec_time[44(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=10892)
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:91] logid[10] reqip[127.0.0.1] mod[sample] exec_time[60(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=10893)
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[73(us)] accepted connection on descriptor 11 (host=127.0.0.1, port=10894)
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:91] logid[11] reqip[127.0.0.1] mod[sample] exec_time[85(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=10895)
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:128] logid[10] reqip[UNKNOW] mod[sample] exec_time[40(us)] succ add 10
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[7(us)] succ add 7
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:128] logid[11] reqip[UNKNOW] mod[sample] exec_time[37(us)] succ add 11
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[6(us)] succ add 8
+TRACE: 2014-01-13 19:12:36 [epollserver.cpp:128] logid[11] reqip[127.0.0.1] mod[sample] exec_time[38(us)] succ add 11
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:91] logid[11] reqip[127.0.0.1] mod[sample] exec_time[14(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=22101)
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[47(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=22102)
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[9(us)] succ add 7
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[10(us)] succ add 8
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:91] logid[8] reqip[UNKNOW] mod[sample] exec_time[6(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=22103)
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:91] logid[9] reqip[127.0.0.1] mod[sample] exec_time[45(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=22104)
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:128] logid[9] reqip[UNKNOW] mod[sample] exec_time[12(us)] succ add 9
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:128] logid[10] reqip[UNKNOW] mod[sample] exec_time[11(us)] succ add 10
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:91] logid[10] reqip[UNKNOW] mod[sample] exec_time[5(us)] accepted connection on descriptor 11 (host=127.0.0.1, port=22106)
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:91] logid[11] reqip[127.0.0.1] mod[sample] exec_time[17(us)] accepted connection on descriptor 12 (host=127.0.0.1, port=22105)
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:128] logid[11] reqip[UNKNOW] mod[sample] exec_time[16(us)] succ add 11
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:128] logid[12] reqip[UNKNOW] mod[sample] exec_time[24(us)] succ add 12
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:91] logid[12] reqip[UNKNOW] mod[sample] exec_time[5(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=22107)
+TRACE: 2014-01-13 19:12:46 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[11(us)] succ add 7
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:91] logid[7] reqip[UNKNOW] mod[sample] exec_time[15(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=22255)
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[47(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=22256)
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:91] logid[8] reqip[127.0.0.1] mod[sample] exec_time[63(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=22257)
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[70(us)] succ add 7
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[8(us)] succ add 8
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:128] logid[9] reqip[UNKNOW] mod[sample] exec_time[27(us)] succ add 9
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:91] logid[9] reqip[UNKNOW] mod[sample] exec_time[10(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=22258)
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[7(us)] succ add 7
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:91] logid[7] reqip[UNKNOW] mod[sample] exec_time[10(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=22259)
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:128] logid[8] reqip[UNKNOW] mod[sample] exec_time[7(us)] succ add 8
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:91] logid[8] reqip[UNKNOW] mod[sample] exec_time[30(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=22260)
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[8(us)] succ add 7
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:91] logid[7] reqip[UNKNOW] mod[sample] exec_time[12(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=22261)
+TRACE: 2014-01-13 19:13:04 [epollserver.cpp:128] logid[7] reqip[UNKNOW] mod[sample] exec_time[7(us)] succ add 7
+DEBUG: 2014-01-13 19:14:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[165(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 19:14:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[244(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 19:14:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[264(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 19:14:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[270(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 19:14:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[275(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:91] logid[0] reqip[] mod[sample] exec_time[51(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=23176)
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[90(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=23175)
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:91] logid[8] reqip[127.0.0.1] mod[sample] exec_time[117(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=23177)
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:91] logid[9] reqip[127.0.0.1] mod[sample] exec_time[128(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=23178)
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:91] logid[10] reqip[127.0.0.1] mod[sample] exec_time[139(us)] accepted connection on descriptor 11 (host=127.0.0.1, port=23179)
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:129] logid[7] reqip[UNKNOW] mod[sample] exec_time[172(us)] succ add 7
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:129] logid[8] reqip[UNKNOW] mod[sample] exec_time[19(us)] succ add 8
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:129] logid[9] reqip[UNKNOW] mod[sample] exec_time[45(us)] succ add 9
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:129] logid[10] reqip[UNKNOW] mod[sample] exec_time[12(us)] succ add 10
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:129] logid[11] reqip[UNKNOW] mod[sample] exec_time[13(us)] succ add 11
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:91] logid[11] reqip[UNKNOW] mod[sample] exec_time[6(us)] accepted connection on descriptor 12 (host=127.0.0.1, port=23180)
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:91] logid[12] reqip[127.0.0.1] mod[sample] exec_time[19(us)] accepted connection on descriptor 13 (host=127.0.0.1, port=23181)
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:129] logid[12] reqip[UNKNOW] mod[sample] exec_time[13(us)] succ add 12
+TRACE: 2014-01-13 19:14:56 [epollserver.cpp:129] logid[13] reqip[UNKNOW] mod[sample] exec_time[14(us)] succ add 13
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:91] logid[13] reqip[UNKNOW] mod[sample] exec_time[18(us)] accepted connection on descriptor 7 (host=10.46.175.102, port=18277)
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:91] logid[7] reqip[10.46.175.102] mod[sample] exec_time[84(us)] accepted connection on descriptor 8 (host=10.46.175.102, port=18282)
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:91] logid[8] reqip[10.46.175.102] mod[sample] exec_time[96(us)] accepted connection on descriptor 9 (host=10.46.175.102, port=18283)
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:129] logid[7] reqip[UNKNOW] mod[sample] exec_time[27(us)] succ add 7
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:129] logid[8] reqip[UNKNOW] mod[sample] exec_time[11(us)] succ add 8
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:129] logid[9] reqip[UNKNOW] mod[sample] exec_time[10(us)] succ add 9
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:91] logid[9] reqip[UNKNOW] mod[sample] exec_time[11(us)] accepted connection on descriptor 7 (host=10.46.175.102, port=18279)
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:91] logid[7] reqip[10.46.175.102] mod[sample] exec_time[30(us)] accepted connection on descriptor 8 (host=10.46.175.102, port=18280)
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:129] logid[8] reqip[UNKNOW] mod[sample] exec_time[27(us)] succ add 8
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:129] logid[7] reqip[UNKNOW] mod[sample] exec_time[14(us)] succ add 7
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:91] logid[7] reqip[UNKNOW] mod[sample] exec_time[11(us)] accepted connection on descriptor 8 (host=10.46.175.102, port=18278)
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:91] logid[8] reqip[10.46.175.102] mod[sample] exec_time[4(us)] accepted connection on descriptor 7 (host=10.46.175.102, port=18281)
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:129] logid[8] reqip[UNKNOW] mod[sample] exec_time[26(us)] succ add 8
+TRACE: 2014-01-13 19:15:12 [epollserver.cpp:129] logid[7] reqip[UNKNOW] mod[sample] exec_time[14(us)] succ add 7
+DEBUG: 2014-01-13 19:15:37 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[176(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 19:15:37 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[251(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 19:15:37 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[272(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 19:15:37 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[277(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 19:15:37 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[283(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:91] logid[0] reqip[] mod[sample] exec_time[39(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=23578)
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[80(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=23579)
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:91] logid[8] reqip[127.0.0.1] mod[sample] exec_time[93(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=23580)
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:130] logid[7] reqip[UNKNOW] mod[sample] exec_time[68(us)] succ add 7
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:130] logid[8] reqip[UNKNOW] mod[sample] exec_time[40(us)] succ add 8
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:130] logid[9] reqip[UNKNOW] mod[sample] exec_time[34(us)] succ add 9
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:91] logid[9] reqip[UNKNOW] mod[sample] exec_time[17(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=23581)
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:91] logid[10] reqip[127.0.0.1] mod[sample] exec_time[42(us)] accepted connection on descriptor 11 (host=127.0.0.1, port=23582)
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:130] logid[10] reqip[UNKNOW] mod[sample] exec_time[24(us)] succ add 10
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:130] logid[11] reqip[UNKNOW] mod[sample] exec_time[10(us)] succ add 11
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:91] logid[11] reqip[UNKNOW] mod[sample] exec_time[10(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=23583)
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[63(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=23584)
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:130] logid[7] reqip[UNKNOW] mod[sample] exec_time[15(us)] succ add 7
+TRACE: 2014-01-13 19:15:40 [epollserver.cpp:130] logid[8] reqip[UNKNOW] mod[sample] exec_time[17(us)] succ add 8
+DEBUG: 2014-01-13 19:15:59 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[183(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 19:15:59 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[257(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 19:15:59 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[276(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 19:15:59 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[282(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 19:15:59 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[287(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:91] logid[0] reqip[] mod[sample] exec_time[37(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=23824)
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[80(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=23822)
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:91] logid[8] reqip[127.0.0.1] mod[sample] exec_time[94(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=23821)
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:130] logid[7] reqip[UNKNOW] mod[sample] exec_time[66(us)] succ add 7
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:130] logid[8] reqip[UNKNOW] mod[sample] exec_time[12(us)] succ add 8
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:130] logid[9] reqip[UNKNOW] mod[sample] exec_time[17(us)] succ add 9
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:91] logid[9] reqip[UNKNOW] mod[sample] exec_time[10(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=23825)
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:91] logid[10] reqip[127.0.0.1] mod[sample] exec_time[23(us)] accepted connection on descriptor 11 (host=127.0.0.1, port=23826)
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:130] logid[10] reqip[UNKNOW] mod[sample] exec_time[14(us)] succ add 10
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:130] logid[11] reqip[UNKNOW] mod[sample] exec_time[27(us)] succ add 11
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:91] logid[11] reqip[UNKNOW] mod[sample] exec_time[6(us)] accepted connection on descriptor 12 (host=127.0.0.1, port=23827)
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:91] logid[12] reqip[127.0.0.1] mod[sample] exec_time[17(us)] accepted connection on descriptor 13 (host=127.0.0.1, port=23828)
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:130] logid[12] reqip[UNKNOW] mod[sample] exec_time[12(us)] succ add 12
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:130] logid[13] reqip[UNKNOW] mod[sample] exec_time[13(us)] succ add 13
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:130] logid[7] reqip[UNKNOW] mod[sample] exec_time[439(us)] succ add 7
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:130] logid[9] reqip[UNKNOW] mod[sample] exec_time[25(us)] succ add 9
+TRACE: 2014-01-13 19:16:04 [epollserver.cpp:130] logid[11] reqip[127.0.0.1] mod[sample] exec_time[304(us)] succ add 11
+DEBUG: 2014-01-13 19:16:45 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[168(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 19:16:45 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[242(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 19:16:45 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[263(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 19:16:45 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[269(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 19:16:45 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[291(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:91] logid[0] reqip[] mod[sample] exec_time[51(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=24232)
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[95(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=24235)
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:91] logid[8] reqip[127.0.0.1] mod[sample] exec_time[107(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=24233)
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:91] logid[9] reqip[127.0.0.1] mod[sample] exec_time[120(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=24236)
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:91] logid[10] reqip[127.0.0.1] mod[sample] exec_time[132(us)] accepted connection on descriptor 11 (host=127.0.0.1, port=24237)
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:128] logid[7] reqip[0.0.0.0] mod[sample] exec_time[32(us)] succ add 7
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:128] logid[8] reqip[127.0.0.1] mod[sample] exec_time[23(us)] succ add 8
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:128] logid[9] reqip[127.0.0.1] mod[sample] exec_time[61(us)] succ add 9
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:128] logid[10] reqip[127.0.0.1] mod[sample] exec_time[14(us)] succ add 10
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:128] logid[11] reqip[127.0.0.1] mod[sample] exec_time[161(us)] succ add 11
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:91] logid[11] reqip[127.0.0.1] mod[sample] exec_time[7(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=24238)
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:91] logid[7] reqip[127.0.0.1] mod[sample] exec_time[21(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=24239)
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:128] logid[8] reqip[127.0.0.1] mod[sample] exec_time[21(us)] succ add 8
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:128] logid[7] reqip[127.0.0.1] mod[sample] exec_time[20(us)] succ add 7
+TRACE: 2014-01-13 19:16:49 [epollserver.cpp:128] logid[8] reqip[127.0.0.1] mod[sample] exec_time[8(us)] succ add 8
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:91] logid[8] reqip[127.0.0.1] mod[sample] exec_time[16(us)] accepted connection on descriptor 7 (host=10.46.175.102, port=23522)
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:91] logid[7] reqip[10.46.175.102] mod[sample] exec_time[51(us)] accepted connection on descriptor 8 (host=10.46.175.102, port=23524)
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:91] logid[8] reqip[10.46.175.102] mod[sample] exec_time[62(us)] accepted connection on descriptor 9 (host=10.46.175.102, port=23525)
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:91] logid[9] reqip[10.46.175.102] mod[sample] exec_time[72(us)] accepted connection on descriptor 10 (host=10.46.175.102, port=23523)
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:128] logid[7] reqip[10.46.175.102] mod[sample] exec_time[15(us)] succ add 7
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:128] logid[8] reqip[10.46.175.102] mod[sample] exec_time[11(us)] succ add 8
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:128] logid[9] reqip[10.46.175.102] mod[sample] exec_time[101(us)] succ add 9
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:128] logid[10] reqip[10.46.175.102] mod[sample] exec_time[46(us)] succ add 10
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:91] logid[10] reqip[10.46.175.102] mod[sample] exec_time[21(us)] accepted connection on descriptor 7 (host=10.46.175.102, port=23521)
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:91] logid[7] reqip[10.46.175.102] mod[sample] exec_time[52(us)] accepted connection on descriptor 8 (host=10.46.175.102, port=23526)
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:128] logid[7] reqip[10.46.175.102] mod[sample] exec_time[10(us)] succ add 7
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:128] logid[8] reqip[10.46.175.102] mod[sample] exec_time[12(us)] succ add 8
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:91] logid[8] reqip[10.46.175.102] mod[sample] exec_time[10(us)] accepted connection on descriptor 7 (host=10.46.175.102, port=23527)
+TRACE: 2014-01-13 19:20:46 [epollserver.cpp:128] logid[7] reqip[10.46.175.102] mod[sample] exec_time[139(us)] succ add 7
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:91] logid[7] reqip[10.46.175.102] mod[sample] exec_time[15(us)] accepted connection on descriptor 7 (host=10.46.175.102, port=23554)
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:91] logid[7] reqip[10.46.175.102] mod[sample] exec_time[49(us)] accepted connection on descriptor 8 (host=10.46.175.102, port=23555)
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:91] logid[8] reqip[10.46.175.102] mod[sample] exec_time[63(us)] accepted connection on descriptor 9 (host=10.46.175.102, port=23556)
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:91] logid[9] reqip[10.46.175.102] mod[sample] exec_time[75(us)] accepted connection on descriptor 10 (host=10.46.175.102, port=23557)
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:128] logid[7] reqip[10.46.175.102] mod[sample] exec_time[55(us)] succ add 7
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:128] logid[8] reqip[10.46.175.102] mod[sample] exec_time[36(us)] succ add 8
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:128] logid[9] reqip[10.46.175.102] mod[sample] exec_time[40(us)] succ add 9
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:128] logid[10] reqip[10.46.175.102] mod[sample] exec_time[10(us)] succ add 10
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:91] logid[10] reqip[10.46.175.102] mod[sample] exec_time[10(us)] accepted connection on descriptor 7 (host=10.46.175.102, port=23560)
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:91] logid[7] reqip[10.46.175.102] mod[sample] exec_time[30(us)] accepted connection on descriptor 8 (host=10.46.175.102, port=23558)
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:91] logid[8] reqip[10.46.175.102] mod[sample] exec_time[8(us)] accepted connection on descriptor 9 (host=10.46.175.102, port=23559)
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:128] logid[9] reqip[10.46.175.102] mod[sample] exec_time[15(us)] succ add 9
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:128] logid[7] reqip[10.46.175.102] mod[sample] exec_time[6(us)] succ add 7
+TRACE: 2014-01-13 19:20:47 [epollserver.cpp:128] logid[8] reqip[10.46.175.102] mod[sample] exec_time[13(us)] succ add 8
+DEBUG: 2014-01-13 19:31:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[180(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 19:31:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[251(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 19:31:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[272(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 19:31:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[278(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 19:31:53 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[283(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 19:31:56 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[160(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 19:31:56 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[231(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 19:31:56 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[251(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 19:31:56 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[257(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 19:31:56 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[262(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 19:32:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[229(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 19:32:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[306(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 19:32:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[329(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 19:32:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[350(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 19:32:10 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[356(us)] key is [_server_sample_timeout], value is [0]
+DEBUG: 2014-01-13 19:32:35 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[175(us)] key is [_server_sample_cut_off_len], value is [20000]
+DEBUG: 2014-01-13 19:32:35 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[251(us)] key is [_server_sample_server_port], value is [2000]
+DEBUG: 2014-01-13 19:32:35 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[272(us)] key is [_server_sample_pool_size], value is [200]
+DEBUG: 2014-01-13 19:32:35 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[278(us)] key is [_server_sample_thread_num], value is [10]
+DEBUG: 2014-01-13 19:32:35 [myconf.cpp:195] logid[0] reqip[] mod[sample] exec_time[283(us)] key is [_server_sample_timeout], value is [0]
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:89] logid[0] reqip[] mod[sample] exec_time[33(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=42423)
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:89] logid[7] reqip[127.0.0.1] mod[sample] exec_time[76(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=42422)
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:89] logid[8] reqip[127.0.0.1] mod[sample] exec_time[89(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=42425)
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:126] logid[7] reqip[0.0.0.0] mod[sample] exec_time[28(us)] succ add 7
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:126] logid[8] reqip[127.0.0.1] mod[sample] exec_time[7(us)] succ add 8
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:126] logid[9] reqip[127.0.0.1] mod[sample] exec_time[11(us)] succ add 9
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:89] logid[9] reqip[127.0.0.1] mod[sample] exec_time[11(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=42426)
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:126] logid[10] reqip[127.0.0.1] mod[sample] exec_time[156(us)] succ add 10
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:89] logid[10] reqip[127.0.0.1] mod[sample] exec_time[13(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=42427)
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:89] logid[7] reqip[127.0.0.1] mod[sample] exec_time[31(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=42428)
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:89] logid[8] reqip[127.0.0.1] mod[sample] exec_time[44(us)] accepted connection on descriptor 11 (host=127.0.0.1, port=42429)
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:126] logid[7] reqip[127.0.0.1] mod[sample] exec_time[19(us)] succ add 7
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:126] logid[8] reqip[127.0.0.1] mod[sample] exec_time[12(us)] succ add 8
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:126] logid[11] reqip[127.0.0.1] mod[sample] exec_time[13(us)] succ add 11
+TRACE: 2014-01-13 19:32:38 [epollserver.cpp:126] logid[8] reqip[UNKNOW] mod[sample] exec_time[8(us)] succ add 8
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:89] logid[8] reqip[UNKNOW] mod[sample] exec_time[19(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=15120)
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:89] logid[7] reqip[127.0.0.1] mod[sample] exec_time[51(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=15121)
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:89] logid[8] reqip[127.0.0.1] mod[sample] exec_time[67(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=15123)
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:126] logid[7] reqip[127.0.0.1] mod[sample] exec_time[10(us)] succ add 7
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:126] logid[8] reqip[127.0.0.1] mod[sample] exec_time[8(us)] succ add 8
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:126] logid[9] reqip[127.0.0.1] mod[sample] exec_time[26(us)] succ add 9
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:89] logid[9] reqip[127.0.0.1] mod[sample] exec_time[5(us)] accepted connection on descriptor 10 (host=127.0.0.1, port=15124)
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:126] logid[10] reqip[127.0.0.1] mod[sample] exec_time[8(us)] succ add 10
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:89] logid[10] reqip[127.0.0.1] mod[sample] exec_time[15(us)] accepted connection on descriptor 7 (host=127.0.0.1, port=15125)
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:89] logid[7] reqip[127.0.0.1] mod[sample] exec_time[47(us)] accepted connection on descriptor 8 (host=127.0.0.1, port=15126)
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:89] logid[8] reqip[127.0.0.1] mod[sample] exec_time[62(us)] accepted connection on descriptor 9 (host=127.0.0.1, port=15127)
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:126] logid[7] reqip[127.0.0.1] mod[sample] exec_time[50(us)] succ add 7
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:126] logid[8] reqip[127.0.0.1] mod[sample] exec_time[7(us)] succ add 8
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:126] logid[9] reqip[127.0.0.1] mod[sample] exec_time[26(us)] succ add 9
+TRACE: 2014-01-13 19:32:48 [epollserver.cpp:126] logid[9] reqip[127.0.0.1] mod[sample] exec_time[83(us)] succ add 9
