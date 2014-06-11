@@ -14,8 +14,8 @@ if [ -d "$MY_CONF_PATH" ]; then
 	rm -rf "$MY_CONF_PATH"
 fi
 
-git clone "$MY_LOG_URL"  "$MY_LOG_PATH"
-git clone "$MY_CONF_URL" "$MY_CONF_PATH"
+env GIT_SSL_NO_VERIFY=true  git clone "$MY_LOG_URL"  "$MY_LOG_PATH"
+env GIT_SSL_NO_VERIFY=true  git clone "$MY_CONF_URL" "$MY_CONF_PATH"
 
 cd "$MY_LOG_PATH" && make
 cd  "$MY_CONF_PATH" && make
